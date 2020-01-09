@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89408fba-f89a-42f9-a487-f50f8e3693c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="89408fba-f89a-42f9-a487-f50f8e3693c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +21,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -48,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578605445350</updated>
-      <workItem from="1578605448068" duration="827000" />
+      <workItem from="1578605448068" duration="921000" />
     </task>
     <servers />
   </component>
@@ -56,6 +59,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="662" y="95" width="587" height="886" key="#Dockerfile" timestamp="1578606369232">
+      <screen x="1" y="25" width="1919" height="1031" />
+    </state>
+    <state x="662" y="95" width="587" height="886" key="#Dockerfile/1.25.1919.1031@1.25.1919.1031" timestamp="1578606369232" />
     <state x="418" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578605476359">
       <screen x="1" y="25" width="1919" height="1031" />
     </state>
