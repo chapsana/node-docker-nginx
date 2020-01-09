@@ -2,6 +2,7 @@
 ## Building your image
 
 ```sh
+docker build -t hello-world .
 docker build -t alphao/node-docker-basics .
 ```
 
@@ -11,8 +12,16 @@ docker build -t alphao/node-docker-basics .
 
 
 ```sh
+docker run -p 8081:8081 hello-world
 docker run -p 49160:8080 -d alphao/node-docker-basics
 ```
+
+
+## Share
+docker login
+docker push alpha/hello-world
+docker run alpha/hello-world
+
 
 
 - Get container ID
