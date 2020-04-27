@@ -1,0 +1,17 @@
+version: "3"
+services:
+  node-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ENV_NAME: developemnt
+    networks:
+      - web_network
+    ports:
+      - 3000:3000
+
+networks:
+  web_network:
+    driver: bridge
+    external: true
