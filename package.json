@@ -43,7 +43,7 @@
     "@types/validator": "^13.0.0",
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
-    "apidoc": "^0.20.1",
+    "apidoc": "^0.22.0",
     "jest": "^25.4.0",
     "nodemon": "^2.0.3",
     "supertest": "^4.0.2",
