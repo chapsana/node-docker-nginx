@@ -1,6 +1,8 @@
 {
   "name": "node-docker-nginx",
   "version": "1.0.0",
+  "keywords": [],
+  "author": "Alpha Olomi <alphaolomi@gmail.com> (http://alphaolomi.me)",
   "description": "node-docker-nginx",
   "main": "src/app.ts",
   "scripts": {
@@ -32,8 +34,7 @@
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
     "@types/bluebird": "^3.5.27",
-    "@types/express": "^4.17.1",
-    "@types/express-validator": "^3.0.0",
+    "@types/express": "^4.17.1",    
     "@types/jsonwebtoken": "^8.3.4",
     "@types/node": "^12.7.5",
     "@types/sequelize": "^4.28.4",
@@ -43,5 +44,14 @@
     "nodemon": "^1.19.2",
     "ts-node": "^8.3.0",
     "typescript": "^3.6.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaolomi/node-docker-nginx.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/alphaolomi/node-docker-nginx/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/node-docker-nginx#readme"
 }
