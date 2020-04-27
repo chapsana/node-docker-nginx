@@ -33,6 +33,4 @@ app.use('/api', router);
 // Express-Error middleware
 app.use(handleError);
 
-app.listen(config.port, () => {
-    console.log(`** 🚀 App running at port ${config.port} **`);
-});
+export default app;
