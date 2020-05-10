@@ -44,7 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^2.29.0",
     "@typescript-eslint/parser": "^2.29.0",
     "apidoc": "^0.22.0",
-    "jest": "^25.4.0",
+    "jest": "^26.0.0",
     "nodemon": "^2.0.3",
     "supertest": "^4.0.2",
     "ts-jest": "^25.4.0",
