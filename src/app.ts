@@ -4,7 +4,7 @@ import express, {
     Response,
     NextFunction
 } from 'express';
-import bodyParser from 'body-parser';
+
 import { router } from './api/routes';
 import { config } from './config';
 import { User } from './models/user';
@@ -13,9 +13,9 @@ import Raven = require('raven-js');
 import { handleError } from './api/middlewares/error.middleware';
 
 const app: Application = express();
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
 
-app.use(bodyParser.json());
+app.use(express.json());
 
 sequelize.addModels([User]);
 
