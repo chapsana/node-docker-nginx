@@ -1,7 +1,7 @@
 import { inject, injectable } from 'inversify';
 import { User } from '../models/user';
 import bcrypt from 'bcryptjs';
-import { IUser } from '../interface/user';
+// import { IUser } from '../interface/user';
 import { TYPES } from '../interface/types';
 import { UserTransformer } from '../transformers/user.transformer';
 import { ISignUpResponse } from '../responses/signup';
@@ -17,12 +17,12 @@ export class AuthService {
 
     }
 
-    async signUp(newUser: IUser): Promise<IResponse<ISignUpResponse>> {
+    async signUp(newUser:  User): Promise<IResponse<ISignUpResponse>> {
         const user = await User.findOne({ where: { email: newUser.email } });
         if (!user) {
             newUser.password = await this.hashPassword(newUser.password!);
             try {
-                const createdUser: IUser = await User.create(newUser);
+                const createdUser:User = await User.create(newUser);
                 return {
                     data: {
                         message: 'User created successfully!',

@@ -41,7 +41,10 @@ router.get('/', (req: Request, res: Response) => {
  * @apiDescription In this case "apiUse" is defined and used.
  * Define blocks with params that will be used in several functions, so you dont have to rewrite them.
  *
- * @apiParam {String} name      Name of the User.
+ * 
+ * 
+ * @apiParam {String} firstName      First name of the User.
+ * @apiParam {String} lastName      Last name of the User.
  * @apiParam {String} email     Email of the User.
  * @apiParam {String} password  Password of the User.
  * 

@@ -16,4 +16,4 @@ import { router as authRoutes } from './auth';
 
 export const router: Router = Router();
 
-router.use('/auth', authRoutes);
+router.use('/v1/auth', authRoutes);

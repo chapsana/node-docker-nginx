@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "bigstack",
-    "host": "localhost",
+    "password": "root",
+    "database": "nodeapp",
+    "host": "mysql",
     "dialect": "mysql"
   },
   "test": {
